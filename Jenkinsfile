@@ -13,7 +13,7 @@ pipeline {
     }  
     stage('Testing') {
       steps {
-        sh 'java Start.java'  
+        sh 'java Start'  
       }
     }
   }
